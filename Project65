@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Link the section MyInspiration in the menu bar below -->
+    <!-- Link the contact section below -->
+
+    <ul class="menu">
+        <li class="link"><a href="#bio">About</a></li>
+        <li class="link"><a href="#References">My favorite books</a></li>
+        <li class="link">Inspiration</li>
+        <li class="link">Contact</li>
+    </ul>
+    <section id="welcome">
+        <img src="kid.jpg">
+        <h1>My Favorite hobby is <br><span id="myname">Singing</span></h1>
+        <h2>I love Singing</h2>
+    </section>
+    <section id="bio">
+        <h1>About</h1>
+        <div class="line"></div>
+        <p class="para">I love singing. Singing is my favrioute thing to do. Whenever I have any freetime I always sing.I sing when I am outside shopping, I sing when I am with my friends. No one can stop me from doing what I love, that is singing. I am a KPOP fan. I love BTS and Blackpink. I also love reading books, I read a book whenever I'm bored, Or else in the meantime I either watch youtube or listen to some songs. I also love to listen to the songs of Taylor Swift, Justin Beiber, Camila Cabello, Selena Gomez, Dua Lipa, Alan Walker, Katy Perry and more like Charlie Puth and Post Malone.
+        </p>
+    </section>
+    <section id="References">
+        <h1>Here is my Favourite songs.</h1>
+        <div class="line"></div>
+        <iframe width="230" height="215" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa-vD52-Xvb1zhrau-RNGpwyCimE3JciHYEQ&usqp=CAU"></iframe>
+        <div class="jj">
+            <a href="https://en.wikipedia.org/wiki/BTS" target="_blank">Click here to view my favorite singer of all time </a>
+        </div>
+    </section>
+        <div class="line"></div>
+        <button class='button'><a href="story.html">Click here to view my story (for timepass) </a></button>
+    </section>
+    <section id="MyInspiration" class='inspiration'>
+        <h1>My Inspiration</h1>
+
+        <div class="line"></div>
+        <div id="myname">
+            click on the pictures to view my Inspiration</div>
+
+        <div>
+
+            <span>
+                <!--  Add the link, "https://www.jkrowling.com/" to the anchor tag below -->
+                <a href="https://ibighit.com/bts/eng/profile/" target="_blank">
+                    <img id="picture" src="BTS.jpg">
+                </a>
+            </span>
+
+            <span>
+
+                <a href="https://www.taylorswift.com" target="_blank">
+                    <img id="picture" src="taylor_swift.jpg">
+                </a>
+            </span>
+        </div>
+
+    </section>
+    <section id="contact">
+
+        <iframe src="https://www.google.com/maps/place/Indu+Fortune+Fields+-+The+Annexe/@17.4759004,78.384959,21z/data=!4m5!3m4!1s0x3bcb91875cd954ed:0xab65753d779d3599!8m2!3d17.4759811!4d78.3850285" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="contact_1">
+
+            <a href="mailto:someone@example.com?Subject=Hello">
+                <!-- Use Font awesome class to show the envelope icon : fa fa-envelope-->
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>sakkuri.tanvi@gmail.com</h3>
+            </a>
+
+            <br>
+            <br>
+
+            <a href="#">
+                 <!-- Use Font awesome class to show the instagram icon : fa fa-instagram-->
+                <i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>I don't have Instagram.</h3>
+            </a>
+
+        </div>
+
+    </section>
+
+</body></html>
